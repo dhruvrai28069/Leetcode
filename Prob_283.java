@@ -16,7 +16,6 @@ public class Prob_283 {
             }
         }
     }
-
      static void main(String[] args) {
 
         Prob_283 solution = new Prob_283();
