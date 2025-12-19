@@ -10,7 +10,6 @@ class Prob_169 {
             if(count == 0){
                 candidates = nums[i];
             }
-
             if(candidates == nums[i]){
                 count++;
             }
