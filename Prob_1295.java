@@ -12,7 +12,6 @@ public class Prob_1295 {
                 count++;
                 x = x/10;
             }
-
             if(count % 2 == 0){
                 answer++;
             }
