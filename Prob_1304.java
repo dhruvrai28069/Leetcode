@@ -16,7 +16,6 @@ public class Prob_1304 {
         }
         return result;
     }
-
     static void main() {
 
          Prob_1304 Example = new Prob_1304();
