@@ -5,7 +5,6 @@ public class Prob_75 {
         nums[i] = nums[j];
         nums[j] = temp;
     }
-
     public void sortColors(int[] nums) {
 
         int n = nums.length;
