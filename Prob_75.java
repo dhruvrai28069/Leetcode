@@ -17,11 +17,9 @@ public class Prob_75 {
                 curr++;
                 low++;
             }
-
             else if(nums[curr] == 1){
                 curr++;
             }
-
             else if(nums[curr] == 2){
                 swap(nums,curr,high);
                 high--;
