@@ -1,7 +1,6 @@
 // USING HASHMAP:
 
 import java.util.HashMap;
-
 public class Prob_217{
     public boolean containsDuplicate(int[] nums) {
 
