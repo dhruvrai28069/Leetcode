@@ -19,7 +19,6 @@ public class Prob_219 {
     static void main(String[] args) {
         Prob_219 solution = new Prob_219();
 
-
             int[] nums1 = {1, 2, 3, 1};
             int k1 = 3;
             System.out.println("Test Case 1: " + solution.containsNearbyDuplicate(nums1, k1));
