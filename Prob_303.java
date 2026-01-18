@@ -1,5 +1,4 @@
 public class Prob_303 {
-
     static class NumArray {
         int[] prefix;
 
