@@ -47,5 +47,6 @@ public class Prob_35 {
         int target4 = 0;
         System.out.println("Array: " + Arrays.toString(nums4) + ", Target: " + target4);
         System.out.println("Result Index: " + solver.searchInsert(nums4, target4));
+
     }
 }
