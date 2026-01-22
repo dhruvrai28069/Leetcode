@@ -38,6 +38,5 @@ class Prob_1431{
         int[] candies3 = {12, 1, 12};
         int extra3 = 10;
         System.out.println("Test Case 3: " + solver.kidsWithCandies(candies3, extra3));
-
     }
 }
