@@ -20,6 +20,7 @@ public class Prob_239 {
             if(j - i + 1 < k){
                 j++;
             }
+
             else if(j - i + 1 == k){
                 ans[i] = nums[dq.peekFirst()];
                 if(dq.peekFirst() == i){
