@@ -21,7 +21,6 @@ public class Prob_643 {
         }
         return maxi;
     }
-
      static void main(String[] args) {
          Prob_643 solver = new Prob_643();
 
