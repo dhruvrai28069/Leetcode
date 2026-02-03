@@ -21,7 +21,8 @@ public class Prob_643 {
         }
         return maxi;
     }
-     static void main(String[] args) {
+
+    static void main(String[] args) {
          Prob_643 solver = new Prob_643();
 
          int[] nums1 = {1, 12, -5, -6, 50, 3};
