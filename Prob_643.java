@@ -30,7 +30,6 @@ public class Prob_643 {
          double result1 = solver.findMaxAverage(nums1, k1);
          System.out.println("Test Case 1 Result: " + result1);
 
-
          int[] nums2 = {-5};
          int k2 = 1;
          double result2 = solver.findMaxAverage(nums2, k2);
