@@ -23,6 +23,7 @@ public class Prob_239 {
 
             else if(j - i + 1 == k){
                 ans[i] = nums[dq.peekFirst()];
+
                 if(dq.peekFirst() == i){
                     dq.pollFirst();
                 }
