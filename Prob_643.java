@@ -7,6 +7,7 @@ public class Prob_643 {
         int i = 0;
         int j = 0;
         double maxi = Double.NEGATIVE_INFINITY;
+
         while(j<n){
             sum += nums[j];
             if(j - i + 1 < k){
