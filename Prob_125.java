@@ -27,6 +27,7 @@ public class Prob_125 {
         }
         return true;
     }
+
     static void main(){
 
     }
