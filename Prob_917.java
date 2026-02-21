@@ -24,4 +24,7 @@ public class Prob_917 {
         }
         return new String(chars);
     }
+    static void main(){
+
+    }
 }
