@@ -33,4 +33,7 @@ public class Prob_239 {
         }
         return ans;
     }
+    static void main(){
+
+    }
 }
