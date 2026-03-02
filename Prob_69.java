@@ -22,7 +22,6 @@ public class Prob_69 {
                 low = mid + 1;
             }
         }
-
         return high;
     }
 }
