@@ -1,6 +1,7 @@
 public class Prob_1790 {
 
     public boolean areAlmostEqual(String s1, String s2) {
+
         if (s1.equals(s2)) {
             return true;
         }
