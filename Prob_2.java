@@ -36,4 +36,7 @@ public class Prob_2 {
         }
         return dummy.next;
     }
+    static void main(){
+
+    }
 }
