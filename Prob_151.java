@@ -13,7 +13,6 @@ public class Prob_151 {
                 sb.append(" ");
             }
         }
-
         return sb.toString();
     }
 }
