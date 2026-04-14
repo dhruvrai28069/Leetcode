@@ -16,7 +16,6 @@ public class Prob_455 {
             }
             cookieIndex++;
         }
-
         return childIndex;
     }
 }
