@@ -16,6 +16,7 @@ public class Prob_28 {
                 return i;
             }
         }
+
         return -1;
     }
 }
