@@ -10,6 +10,7 @@ public class Prob_784 {
             return;
         }
         char ch = s.charAt(idx);
+
         if(ch >= 48 && ch<=57){
             solve(s, idx + 1, curr + ch);
         }
