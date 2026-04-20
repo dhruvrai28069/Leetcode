@@ -1,7 +1,6 @@
 import java.util.*;
 
 public class Prob_784 {
-
     List<String> ans = new ArrayList<>();
     public void solve(String s, int idx, String curr){
 
