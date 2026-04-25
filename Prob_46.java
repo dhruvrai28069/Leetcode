@@ -24,6 +24,7 @@ public class Prob_46 {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+
     public List<List<Integer>> permute(int[] arr) {
         List<List<Integer>> ans = new ArrayList<>();
         solve(arr, 0, ans);
