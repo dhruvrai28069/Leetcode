@@ -8,7 +8,6 @@ public class Prob_36 {
             if(board[3 * (row/3) + i / 3][3 * (col/3) + i % 3] == c) return false;
         }
         return true;
-
     }
     public boolean isValidSudoku(char[][] board) {
         for(int i = 0; i < board.length; i++){
