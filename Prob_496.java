@@ -17,7 +17,6 @@ public class Prob_496 {
         for (int i = 0; i < nums1.length; i++) {
             result[i] = nextGreaterMap.getOrDefault(nums1[i], -1);
         }
-
         return result;
     }
 }
