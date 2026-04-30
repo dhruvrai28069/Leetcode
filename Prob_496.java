@@ -12,7 +12,6 @@ public class Prob_496 {
             }
             stack.push(num);
         }
-
         int[] result = new int[nums1.length];
         for (int i = 0; i < nums1.length; i++) {
             result[i] = nextGreaterMap.getOrDefault(nums1[i], -1);
