@@ -13,7 +13,6 @@ public class Prob_416 {
         if(sum % 2 != 0){
             return false;
         }
-
         sum = sum/2;
 
         Boolean[][]t = new Boolean[n + 1][sum + 1];
