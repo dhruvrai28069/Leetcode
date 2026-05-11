@@ -20,7 +20,6 @@ public class Prob_322 {
                 t[1][j] = Integer.MAX_VALUE - 1;
             }
         }
-
         for(int i = 2; i < n + 1; i++){
             for(int j = 1; j < W + 1; j++){
                 if(coins[i - 1] <= j){
