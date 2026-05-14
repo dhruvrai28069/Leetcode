@@ -42,7 +42,6 @@ public class Prob_1092 {
         while(j > 0){
             sb.append(s2.charAt(j-1));
             j--;
-
         }
         return sb.reverse().toString();
     }
