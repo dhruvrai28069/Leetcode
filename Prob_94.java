@@ -18,13 +18,13 @@ public class Prob_94 {
         }
     }
 
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversal(TreeNode root){
         List<Integer> result = new ArrayList<>();
         solve(root, result);
         return result;
     }
 
-    private void solve(TreeNode node, List<Integer> result) {
+    private void solve(TreeNode node, List<Integer> result){
         if (node == null) return;
 
         solve(node.left, result);
