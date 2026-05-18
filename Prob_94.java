@@ -1,9 +1,9 @@
 import javax.swing.tree.TreeNode;
 import java.util.*;
 
-public class Prob_94 {
+public class Prob_94{
 
-    public class TreeNode {
+    public class TreeNode{
         int val;
         TreeNode left;
         TreeNode right;
