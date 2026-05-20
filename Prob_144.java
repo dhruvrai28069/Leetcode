@@ -16,19 +16,18 @@ public class Prob_144{
             this.left = left;
             this.right = right;
         }
-            public List<Integer> preorderTraversal(TreeNode root) {
-                List<Integer> result = new ArrayList<>();
-                solve(root, result);
-                return result;
-            }
-
-            private void solve(TreeNode node, List<Integer> result) {
-                if (node == null) return;
-
-                result.add(node.val);
-                solve(node.left, result);
-                solve(node.right, result);
-            }
+        public List<Integer> preorderTraversal(TreeNode root) {
+            List<Integer> result = new ArrayList<>();
+            solve(root, result);
+            return result;
         }
 
+        private void solve(TreeNode node, List<Integer> result) {
+            if (node == null) return;
+
+            result.add(node.val);
+            solve(node.left, result);
+            solve(node.right, result);
+        }
     }
+}
