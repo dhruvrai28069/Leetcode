@@ -20,7 +20,6 @@ public class Prob_144{
             solve(root, result);
             return result;
         }
-
         private void solve(TreeNode node, List<Integer> result) {
             if (node == null) return;
 
