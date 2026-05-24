@@ -6,6 +6,7 @@ public class Prob_104 {
         Prob_104.TreeNode right;
 
     }
+
     public int maxDepth(TreeNode root) {
 
         if(root == null) return 0;
