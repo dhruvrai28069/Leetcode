@@ -1,6 +1,6 @@
-public class Prob_701 {
+public class Prob_701{
 
-    public class TreeNode {
+    public class TreeNode{
         int val;
         Prob_701.TreeNode left;
         Prob_701.TreeNode right;
@@ -9,7 +9,7 @@ public class Prob_701 {
         }
     }
 
-    public TreeNode insertIntoBST(TreeNode root, int val) {
+    public TreeNode insertIntoBST(TreeNode root, int val){
 
         if(root == null) return new TreeNode(val);
 
