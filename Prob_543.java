@@ -6,7 +6,6 @@ public class Prob_543 {
         Prob_543.TreeNode right;
 
     }
-
     int maxi = 0;
     public int height(TreeNode root) {
 
