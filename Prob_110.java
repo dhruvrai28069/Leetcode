@@ -6,7 +6,6 @@ public class Prob_110 {
         Prob_110.TreeNode right;
 
     }
-
     public int height(TreeNode root) {
 
         if (root == null) return 0;
@@ -20,7 +19,6 @@ public class Prob_110 {
         if (Math.abs(lh - rh) > 1) return -1;
         return 1 + Math.max(lh, rh);
     }
-
     public boolean isBalanced(TreeNode root) {
 
         int ans = height(root);
