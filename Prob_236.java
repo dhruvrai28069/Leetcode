@@ -18,7 +18,6 @@ public class Prob_236 {
         if (leftNode != null && rightNode != null) {
             return root;
         }
-
         return leftNode != null ? leftNode : rightNode;
     }
 }
