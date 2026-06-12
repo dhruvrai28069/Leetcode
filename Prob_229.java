@@ -3,6 +3,7 @@ import java.util.*;
 public class Prob_229 {
 
     public List<Integer> majorityElement(int[] nums) {
+
         int n = nums.length;
         ArrayList<Integer> list = new ArrayList<>();
 
