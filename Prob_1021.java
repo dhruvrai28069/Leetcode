@@ -23,6 +23,5 @@ public class Prob_1021 {
             end++;
         }
         return st.toString();
-
     }
 }
