@@ -1,5 +1,4 @@
 public class Prob_1021 {
-
     public String removeOuterParentheses(String s) {
 
         int n = s.length();
