@@ -18,6 +18,5 @@ public class Prob_229 {
             }
         }
         return list;
-
     }
 }
