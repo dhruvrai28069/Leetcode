@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Prob_103 {
+class Prob_103{
 
     public class TreeNode{
         int val;
