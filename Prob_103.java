@@ -24,11 +24,11 @@ class Prob_103{
     }
 
     private void dfs(TreeNode node, int level, List<List<Integer>> result){
-        if (node == null) {
+        if (node == null){
             return;
         }
 
-        if (result.size() == level) {
+        if (result.size() == level){
             result.add(new ArrayList<>());
         }
 
