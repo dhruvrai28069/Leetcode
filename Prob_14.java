@@ -17,7 +17,6 @@ public class Prob_14 {
                 }
             }
         }
-
         return prefix;
     }
 }
