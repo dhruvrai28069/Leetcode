@@ -1,6 +1,6 @@
-public class Prob_14 {
+public class Prob_14{
 
-    public String longestCommonPrefix(String[] strs) {
+    public String longestCommonPrefix(String[] strs){
         if (strs == null || strs.length == 0) {
             return " ";
         }
