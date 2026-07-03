@@ -6,7 +6,6 @@ public class Prob_58 {
         while (i >= 0 && s.charAt(i) == ' ') {
             i--;
         }
-
         while (i >= 0 && s.charAt(i) != ' ') {
             length++;
             i--;
