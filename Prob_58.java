@@ -1,5 +1,6 @@
 public class Prob_58 {
     public int lengthOfLastWord(String s) {
+
         int length = 0;
         int i = s.length() - 1;
 
