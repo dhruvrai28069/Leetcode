@@ -11,7 +11,6 @@ public class Prob_58 {
             length++;
             i--;
         }
-
         return length;
     }
 }
