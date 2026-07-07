@@ -1,4 +1,4 @@
-public class Pro_52 {
+public class Prob_52 {
 
     private int count = 0;
 
