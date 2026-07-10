@@ -16,5 +16,6 @@ public class Prob_66 {
         newNumber[0] = 1;
 
         return newNumber;
+
     }
 }
