@@ -1,6 +1,6 @@
-public class Prob_66 {
+public class Prob_66{
 
-    public int[] plusOne(int[] digits) {
+    public int[] plusOne(int[] digits){
         int n = digits.length;
 
         for (int i = n - 1; i >= 0; i--) {
