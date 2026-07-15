@@ -27,7 +27,6 @@ public class Prob_82 {
             }
             head = head.next;
         }
-
         return dummy.next;
     }
 }
