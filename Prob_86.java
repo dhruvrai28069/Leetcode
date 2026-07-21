@@ -36,5 +36,6 @@ public class Prob_86 {
         after.next = null;
         before.next = afterHead.next;
         return beforeHead.next;
+
     }
 }
