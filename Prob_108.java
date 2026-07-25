@@ -16,18 +16,15 @@ public class Prob_108 {
         }
 
         private TreeNode constructBST(int[] nums, int left, int right) {
-            // Base case: if the pointers cross, the subtree is empty
+
             if (left > right) {
                 return null;
             }
 
-            // Find the middle element to maintain height balance
             int mid = left + (right - left) / 2;
 
-            // Create the root node with the middle element
             TreeNode node = new TreeNode(nums[mid]);
 
-            // Recursively build the left and right subtrees
             node.left = constructBST(nums, left, mid - 1);
             node.right = constructBST(nums, mid + 1, right);
 
