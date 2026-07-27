@@ -15,7 +15,6 @@ public class Prob_121 {
                 maxProfit = Math.max(maxProfit, price - minPrice);
             }
         }
-
         return maxProfit;
     }
 }
