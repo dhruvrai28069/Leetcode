@@ -1,4 +1,4 @@
-public class Prob_121 {
+public class Prob_121{
 
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length == 0) {
