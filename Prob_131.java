@@ -19,9 +19,7 @@ public class Prob_131 {
             if (isPalindrome(s, start, end)) {
 
                 currentList.add(s.substring(start, end + 1));
-
                 backtrack(s, end + 1, currentList, result);
-
                 currentList.remove(currentList.size() - 1);
             }
         }
