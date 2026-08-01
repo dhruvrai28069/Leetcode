@@ -27,7 +27,6 @@ public class Prob_132 {
             }
             cuts[i] = minCuts;
         }
-
         return cuts[n - 1];
     }
 }
