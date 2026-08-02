@@ -1,6 +1,6 @@
 public class Prob_132 {
 
-    public int minCut(String s) {
+    public int minCut(String s){
         if (s == null || s.length() <= 1) {
             return 0;
         }
