@@ -9,7 +9,7 @@ public class Prob_132 {
         int[] cuts = new int[n];
         boolean[][] isPalindrome = new boolean[n][n];
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++){
 
             int minCuts = i;
 
