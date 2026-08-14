@@ -15,7 +15,6 @@ public class Prob_162 {
                 right = mid;
             }
         }
-
         return left;
     }
 }
