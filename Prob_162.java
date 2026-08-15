@@ -10,7 +10,8 @@ public class Prob_162 {
             if (nums[mid] < nums[mid + 1]) {
 
                 left = mid + 1;
-            } else {
+            }
+            else {
 
                 right = mid;
             }
