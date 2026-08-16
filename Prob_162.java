@@ -1,6 +1,7 @@
 public class Prob_162 {
 
     public int findPeakElement(int[] nums) {
+
         int left = 0;
         int right = nums.length - 1;
 
