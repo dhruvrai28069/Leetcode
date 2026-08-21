@@ -18,7 +18,6 @@ public class Prob_242 {
                 return false;
             }
         }
-
         return true;
     }
 }
