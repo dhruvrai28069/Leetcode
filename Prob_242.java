@@ -12,7 +12,6 @@ public class Prob_242 {
             charCounts[s.charAt(i) - 'a']++;
             charCounts[t.charAt(i) - 'a']--;
         }
-
         for (int count : charCounts) {
             if (count != 0) {
                 return false;
