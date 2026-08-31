@@ -18,7 +18,6 @@ public class Prob_260 {
         }
 
         int y = bitmask ^ x;
-
         return new int[]{x, y};
     }
 }
