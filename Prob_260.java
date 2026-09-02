@@ -8,7 +8,6 @@ public class Prob_260 {
         }
 
         int diff = bitmask & (-bitmask);
-
         int x = 0;
         for (int num : nums) {
 
