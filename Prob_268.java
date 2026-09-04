@@ -8,7 +8,6 @@ public class Prob_268 {
         for (int num : nums) {
             actualSum += num;
         }
-
         return expectedSum - actualSum;
     }
 }
